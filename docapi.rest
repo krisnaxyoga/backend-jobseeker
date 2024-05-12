@@ -1,0 +1,16 @@
+GET http://127.0.0.1:8000/api/candidate
+
+###
+POST http://127.0.0.1:8000/api/candidate/store
+Content-Type: application/json
+
+{
+    "email" : "tesss@gmail.com",
+    "phone_number" : "0812311212",
+    "full_name" : "tes name",
+    "dob" : "2000-03-06", // Format tanggal yang valid (YYYY-MM-DD)
+    "pob" : "brsebunibs",
+    "gender" : "M",
+    "year_exp" :"3",
+    "last_salary" : "9000000"
+}
